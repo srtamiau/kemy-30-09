@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background: url('assets/img/pedregulho.jpg');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(187, 140, 101);
+    background-color: rgb(202, 156, 96);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -19,38 +19,22 @@ body {
     text-align: center;
     /* background-color: aquamarine; */
     height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3 {
-    background-color: hsl(34, 60%, 66%);
+    background-color: rgb(221, 176, 118);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
-    backface-visibility: hidden;
 }
 
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
 }
-
-.cartao:hover .cartao__conteudo {
-    transform: rotateY(180deg) ;
-}
-
-
-
-
-
-
-
-
-
 
 
 
